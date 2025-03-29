@@ -55,16 +55,19 @@ AskDenodo is a single MCP server that eliminates the need to build separate MCP 
      - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
    - Add the following configuration:
      ```json
-     {
-         "mcpServers": {
-             "denodo_ai_sdk": {
-                 "command": "python",
-                 "args": [
-                     "path/to/askDenodo.py"
-                 ]
-             }
-         }
-     }
+      {
+       "mcpServers": {
+           "askDenodo": {
+               "command": "C:\\Users\\MuthuKumaranKuppuswa\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv",
+               "args": [
+                   "--directory",
+                   "C:\\MCP_DEMO\\Denodo",
+                   "run",
+                   "ask_denodo.py"
+               ]
+           }
+       }
+      }
      ```
 
 4. Restart Claude for Desktop and look for the hammer icon to access the tools.
