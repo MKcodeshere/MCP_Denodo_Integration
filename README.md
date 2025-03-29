@@ -58,7 +58,7 @@ AskDenodo is a single MCP server that eliminates the need to build separate MCP 
       {
        "mcpServers": {
            "askDenodo": {
-               "command": "C:\\Users\\MuthuKumaranKuppuswa\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv",
+               "command": "C:\\Users\\MK\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv",
                "args": [
                    "--directory",
                    "C:\\MCP_DEMO\\Denodo",
