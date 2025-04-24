@@ -263,7 +263,7 @@ MIT
 
 ## Author
 
-Your Name
+Muthu Kumaran Kuppuswamy
 
 *Note: While I work for Denodo, the AskDenodo MCP integration described in this project is my own initiative, and you can expect to see an official integration from Denodo soon.*
 ```
